@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4366929, g: 0.48429114, b: 0.5645392, a: 1}
+  m_IndirectSpecularColor: {r: 0.43669233, g: 0.4842903, b: 0.564538, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -261,9 +261,15 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< Updated upstream
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+=======
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+>>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &423640839
 GameObject:
@@ -440,7 +446,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: /15
+  m_Text: /15 HP
 --- !u!222 &695899656
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1433,6 +1439,10 @@ PrefabInstance:
       propertyPath: healthText
       value: 
       objectReference: {fileID: 1529893634}
+    - target: {fileID: 6814043379726721345, guid: 34a17991105008e499630abd765bfa09, type: 3}
+      propertyPath: cubesInRow
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34a17991105008e499630abd765bfa09, type: 3}
 --- !u!1001 &2578110479454851429
@@ -1497,8 +1507,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 2578110479718577605, guid: fdd9209605e48a04c895f5b291a21a27,
         type: 3}
+=======
+    - target: {fileID: 2578110479718577605, guid: fdd9209605e48a04c895f5b291a21a27, type: 3}
+      propertyPath: waves.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2578110479718577605, guid: fdd9209605e48a04c895f5b291a21a27, type: 3}
+      propertyPath: waves.Array.data[1].name
+      value: Cyber Ninjas Wave 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2578110479718577605, guid: fdd9209605e48a04c895f5b291a21a27, type: 3}
+      propertyPath: waves.Array.data[1].rate
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2578110479718577605, guid: fdd9209605e48a04c895f5b291a21a27, type: 3}
+>>>>>>> Stashed changes
       propertyPath: spawnPoints.Array.data[0]
       value: 
       objectReference: {fileID: 1441721338}
@@ -1512,8 +1538,20 @@ PrefabInstance:
       propertyPath: spawnPoints.Array.data[2]
       value: 
       objectReference: {fileID: 500495249}
+<<<<<<< Updated upstream
     - target: {fileID: 2578110479718577658, guid: fdd9209605e48a04c895f5b291a21a27,
         type: 3}
+=======
+    - target: {fileID: 2578110479718577605, guid: fdd9209605e48a04c895f5b291a21a27, type: 3}
+      propertyPath: waves.Array.data[1].count
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2578110479718577605, guid: fdd9209605e48a04c895f5b291a21a27, type: 3}
+      propertyPath: waves.Array.data[1].enemy
+      value: 
+      objectReference: {fileID: 3534436109450125491, guid: 7629e9ea8409aab4bb5ce87a1121ca78, type: 3}
+    - target: {fileID: 2578110479718577658, guid: fdd9209605e48a04c895f5b291a21a27, type: 3}
+>>>>>>> Stashed changes
       propertyPath: m_Name
       value: EnemySpawner
       objectReference: {fileID: 0}
@@ -1593,3 +1631,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3788ac84e7066a49ab1c026d40254b3, type: 3}
+<<<<<<< Updated upstream
+=======
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 963194228}
+  - {fileID: 1208509463725190354}
+  - {fileID: 1664715401}
+  - {fileID: 705507995}
+  - {fileID: 423640843}
+  - {fileID: 1598450700253763810}
+  - {fileID: 1195994598}
+  - {fileID: 95376491}
+  - {fileID: 1558111023}
+  - {fileID: 4417900309485103636}
+  - {fileID: 2578110479454851429}
+  - {fileID: 779718222771675985}
+>>>>>>> Stashed changes
