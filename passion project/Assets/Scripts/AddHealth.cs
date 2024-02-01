@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,9 +10,9 @@ public class AddHealth : MonoBehaviour
     // Start is called before the first frame update
 private void Start()
     {
-        GameObject BluePlayer = GameObject.Find("BluePlayer");
+        GameObject Player = GameObject.Find("Player");
 
-        playerHealth = BluePlayer.GetComponent<PlayerHealth>();
+        playerHealth = Player.GetComponent<PlayerHealth>();
         if (!playerHealth)
         {
             healthText.text = "error";
