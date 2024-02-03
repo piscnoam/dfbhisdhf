@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -24,13 +24,13 @@ public class PlayerHealth : MonoBehaviour
         if(currentPlayerHealth <= 0)
         {
             particles.Explode();
-            Invoke("ReloadScene", 5);
+            Invoke("Death", 1.5f);
         }
     }
 
-    private void ReloadScene()
+    private void Death()
     {
-        SceneManager.LoadScene("CyberFu");
+        SceneManager.LoadScene("Dead");
     }
     private void OnTriggerEnter(Collider other)
     {
