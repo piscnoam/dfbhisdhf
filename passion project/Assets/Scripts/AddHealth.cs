@@ -32,19 +32,19 @@ private void Start()
         }
     }
 
-    // public void OnTriggerEnter(Collider other)
-    // {
-    //     if (other.gameObject.tag == "Health")
-    //     {
-    //         if (playerHealth.currentHealth < 10)
-    //         {
-    //             playerHealth.currentHealth += playerHealth.healthToGive;
-    //             print("Healed!");
-    //         }
-    //         else if (playerHealth.currentHealth == 10)
-    //         {
-    //             return;
-    //         }
-    //     }
-    //}
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Health")
+        {
+            if (playerHealth.currentPlayerHealth <= 12)
+            {
+                playerHealth.currentPlayerHealth += 3;
+                print("Healed!");
+            }
+            else
+            {
+                playerHealth.currentPlayerHealth = 15;
+            }
+        }
+    }
 }
