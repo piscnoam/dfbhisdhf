@@ -42,6 +42,7 @@ public class PlayerHealth : MonoBehaviour
     private void Death()
     {
         Time.timeScale = 0f;
+        SceneManager.LoadScene(0);
     }
     private void OnTriggerEnter(Collider other)
     {
